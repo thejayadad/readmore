@@ -1,0 +1,29 @@
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#box{
+    padding: 2rem;
+    background: #fff;
+    line-height: 1.4rem;
+    box-shadow: 0 0 1rem rgba(0,0,0,.1);
+
+}
+
+.read-btn{
+    color: orangered;
+    cursor: pointer;
+}
+
+.read-more{
+    display: none;
+    cursor: pointer;
+}
+
+.read-more-show{
+    display: inline;
+}
